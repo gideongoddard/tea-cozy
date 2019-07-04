@@ -7,8 +7,12 @@ body {
     background-color: #000;
 }
 
-h1, h2, h3, h4 {
-    margin: 20px 0 10px 0;
+h2 {
+    margin: 20px 0;
+}
+
+h4 {
+    margin: 10px 0;
 }
 
 header {
@@ -38,10 +42,10 @@ nav {
 }
 
 nav a {
-    color: #fff;
     display: inline-block;
     padding: 10px;
     text-decoration: underline;
+    color: seashell;
 }
 
 #banner {
@@ -55,4 +59,25 @@ nav a {
     width: 12000px;
     text-align: center;
     background-color: #000;
+}
+
+#tea {
+    max-width: 1000px;
+    padding-top: 50px;
+    text-align: center;
+    margin: auto;
+}
+
+.card-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.cards img {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
 }
