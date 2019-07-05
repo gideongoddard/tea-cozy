@@ -81,3 +81,37 @@ nav a {
     height: 200px;
     margin: 10px;
 }
+
+#locations {
+    min-height: 500px;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 4%;
+    background-image: url('../images/img-locations-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 -30px;
+    text-align: center;
+}
+
+#locations-heading {
+    padding-top: 60px;
+}
+
+#location-cards-container {
+    margin: auto;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.location-x {
+    margin: 15px 20px;
+    width: 300px;
+    background-color: #000;
+    opacity: 1;
+}
+
+.address {
+    margin: 30px 10px;
+}
